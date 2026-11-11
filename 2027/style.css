@@ -132,3 +132,21 @@ a img.aligncenter {
     object-fit: contain;
     vertical-align: middle;
 }
+
+.program-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.program-table th,
+.program-table td {
+    border: 1px solid #b5b5b5;
+    padding: 12px 16px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.program-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
