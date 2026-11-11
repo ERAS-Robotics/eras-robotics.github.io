@@ -132,19 +132,3 @@ a img.aligncenter {
     object-fit: contain;
     vertical-align: middle;
 }
-
-.menu-item-has-children > a:after {
-    content: "";
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin-left: 8px;
-
-    background: url("chevron.png") center / contain no-repeat;
-
-    transition: transform 0.2s ease;
-}
-
-.menu-item-has-children.open > a:after {
-    transform: rotate(180deg);
-}
